@@ -16,13 +16,26 @@
                 <version>1.6.0</version>
                 <executions>
                     <execution>
+                        <id>threads-and-executors</id>
                         <goals>
                             <goal>java</goal>
                         </goals>
+                        <configuration>
+                            <mainClass>ThreadsAndExecutors.App</mainClass>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>synchronization-and-locks</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>ThreadsAndExecutors.App</mainClass>
+                        </configuration>
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>App</mainClass>
+                    <mainClass>ThreadsAndExecutors.App</mainClass>
                 </configuration>
             </plugin>
             <plugin>
