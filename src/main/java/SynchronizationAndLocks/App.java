@@ -6,6 +6,6 @@ public class App
     {
         new SynchronizedEx().exec();
         new LockEx().exec();
-
+        new ReadWriteLockEx().exec();
     }
 }
