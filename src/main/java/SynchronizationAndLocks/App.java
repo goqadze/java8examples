@@ -7,5 +7,7 @@ public class App
         new SynchronizedEx().exec();
         new LockEx().exec();
         new ReadWriteLockEx().exec();
+        new StampedLockEx().exec();
+        new StampedLockEx1().exec();
     }
 }
