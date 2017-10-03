@@ -9,5 +9,6 @@ public class App
         new ReadWriteLockEx().exec();
         new StampedLockEx().exec();
         new StampedLockEx1().exec();
+        new SemaphoreEx().exec();
     }
 }
