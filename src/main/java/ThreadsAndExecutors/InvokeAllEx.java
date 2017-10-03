@@ -1,12 +1,14 @@
 package ThreadsAndExecutors;
 
+import Shared.Exec;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class InvokeAllEx implements Exec{
+public class InvokeAllEx implements Exec {
     @Override
     public void exec() {
         System.out.println();

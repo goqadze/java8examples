@@ -1,4 +1,4 @@
-package ThreadsAndExecutors;
+package Shared;
 
 public interface Exec {
     void exec();

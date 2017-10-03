@@ -1,5 +1,7 @@
 package ThreadsAndExecutors;
 
+import Shared.Exec;
+
 public class RunnableEx implements Exec {
 
     public void exec (){

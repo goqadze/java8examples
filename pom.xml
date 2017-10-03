@@ -30,7 +30,7 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <mainClass>ThreadsAndExecutors.App</mainClass>
+                            <mainClass>SynchronizationAndLocks.App</mainClass>
                         </configuration>
                     </execution>
                 </executions>

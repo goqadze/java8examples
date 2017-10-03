@@ -1,5 +1,7 @@
 package ThreadsAndExecutors;
 
+import Shared.Exec;
+
 import java.util.concurrent.TimeUnit;
 
 public class RunnableEx1 implements Exec {

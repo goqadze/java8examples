@@ -1,5 +1,7 @@
 package ThreadsAndExecutors;
 
+import Shared.Exec;
+
 import java.util.concurrent.*;
 
 public class ScheduledExecutorEx1 implements Exec {
